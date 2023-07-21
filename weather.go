@@ -14,7 +14,7 @@ func main() {
 
 	//simple Program that does Json parsing from the weather API
 
-	fmt.Println("Enter Your State:")
+	fmt.Println("Enter Your City:")
 
 	reader := bufio.NewReader(os.Stdin)
 	state, _ := reader.ReadString('\n')
